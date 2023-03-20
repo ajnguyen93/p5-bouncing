@@ -28,11 +28,11 @@ function draw() {
   if (xPos1 >= width - sz / 2 || xPos1 <= sz / 2) {
     xDir1 = xDir1 * -1;
   }
-  if (yPos1 >= width - sz / 2 || yPos1 <= sz / 2) {
+  if (yPos1 >= height - sz / 2 || yPos1 <= sz / 2) {
     yDir1 = yDir1 * -1;
   }
 
-  if (xPos2 >= height - sz / 2 || xPos2 <= sz / 2) {
+  if (xPos2 >= width - sz / 2 || xPos2 <= sz / 2) {
     xDir2 = xDir2 * -1;
   }
   if (yPos2 >= height - sz / 2 || yPos2 <= sz / 2) {
